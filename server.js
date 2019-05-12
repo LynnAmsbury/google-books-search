@@ -3,7 +3,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 3002;
+const CORS = require ("cors");
+app.use(CORS());
 
 // Configure body parsing for AJAX requests
 app.use(express.urlencoded({ extended: true }));
