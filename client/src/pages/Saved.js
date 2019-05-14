@@ -38,11 +38,12 @@ class Saved extends Component {
     render() {
         return (<div>
             {this.state.books.map((book) => {
+                console.log(book);
                 return <Book
                 key={book.id}
                 title={book.title}
                 subtitle={book.subtitle}
-                link={book.infoLink}
+                link={book.link}
                 authors={book.authors.join(", ")}
                 description={book.description}
                 image={book.thumbnail}
