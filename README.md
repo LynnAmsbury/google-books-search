@@ -15,7 +15,7 @@ Users of the app can search for books by keyword(s) and title.
 
 ![Google Book Search demo](client/public/gifs/GoogleBookSearchDemo.gif)
 
-Once books are rendered to the page, clicking the *Save* button will add them to the Saved page, notifying the user.
+Once books are rendered to the page, clicking the *Save* button will add them to the Saved Books page, notifying the user.
 
 ![Google Book Search save function demo](client/public/gifs/GoogleBookSearchSaveDemo.gif)
 
